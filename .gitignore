@@ -1,0 +1,6 @@
+/vba_server_test/settings.py
+
+
+*.pyc
+*~
+__pycache__
