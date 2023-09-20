@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<head>
+</head>
+
+<body>
+    <form method = "POST" name = "test_form">
+    {% csrf_token %}
+        <h1>Page de test</h1>
+        <p>Click on the button below to throw the test</p>
+        <input type="submit" value="Click Click!" name="bouton"></input>
+    </form>
+</body>
